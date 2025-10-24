@@ -1,0 +1,18 @@
+[project]
+name = "neuro-symbolic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+"python-dotenv>=1.0",
+"neo4j>=5.23",
+"langgraph>=0.2.32",
+"langchain>=0.3.7",
+"pydantic>=2.9",
+"rapidfuzz>=3.9",
+"tiktoken>=0.7",
+"numpy>=1.26",
+"pandas>=2.2",
+"tenacity>=9.0",
+]
